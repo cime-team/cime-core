@@ -12,9 +12,9 @@ recursos, por favor
 
 ## Instalación y Ejecución
 
-Visita la página de la Wiki sobre [Instalación y Ejecución](https://github.com/
-cime-team/cime-core/wiki/Instalaci%C3%B3n-y-Ejecuci%C3%B3n) o lee el archivo
-`INSTALL.md` del repositorio.
+Visita la página de la Wiki sobre
+[Instalación y Ejecución](https://github.com/cime-team/cime-core/wiki/Instalaci%C3%B3n-y-Ejecuci%C3%B3n)
+o lee el archivo `INSTALL.md` del repositorio.
 
 ## Colaborar con el proyecto
 
