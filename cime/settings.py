@@ -57,7 +57,9 @@ VENDOR_APPS = [
 ]
 
 # Aplicaciones Internas
-CIME_APPS = []
+CIME_APPS = [
+    'accounts'
+]
 
 # Aplicaciones Instaladas...
 INSTALLED_APPS = DJANGO_APPS + VENDOR_APPS + CIME_APPS
@@ -98,6 +100,9 @@ WSGI_APPLICATION = 'cime.wsgi.application'
 DATABASES = {
     'default': __env.db()
 }
+
+# Usuario personalizado
+AUTH_USER_MODEL = 'accounts.CimeUser'
 
 # Validadores de contraseña
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
